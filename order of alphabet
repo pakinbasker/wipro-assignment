@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+		//System.out.println(args[0]);
+	
+	    char s='f',d='a';
+	    if (s<d){
+	        System.out.println(s+","+d);
+	    } 
+	    else{
+	        	        System.out.println(d+","+s);
+
+	    }
+	}
+}
