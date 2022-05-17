@@ -1,0 +1,25 @@
+public class Main
+{
+	public static void main(String[] args) {
+	int f=5;
+	switch(f){
+	    case 1:{
+	        System.out.println("january");break;
+	    }
+	     case 2:{
+	        System.out.println("feburary");break;
+	    } case 3:{
+	        System.out.println("march");break;
+	    } case 4:{
+	        System.out.println("april");break;
+	    } case 5:{
+	        System.out.println("may");break;
+	    } case 6:{
+	        System.out.println("june");break;
+	    }
+	    default:{
+	        System.out.println("enter correct num");break;
+	    }
+	        
+	}
+	    
