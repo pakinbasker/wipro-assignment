@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+		//System.out.println(args[0]);
+	
+	    String s="alphabet";
+	    if (s=="alphabet"){
+	        System.out.println("Alphabet");
+	    } 
+	    else{
+	        	        System.out.println("Special charcter");
+
+	    }
+	}
+}
