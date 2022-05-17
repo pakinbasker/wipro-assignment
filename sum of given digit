@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+	 int s,n=1542,t=0;
+	 while(n>0){
+	     s=n%10;
+	   t=s+t; 
+	   n/=10;
+	 }
+	 //n/=10;
+	System.out.println(t);
+	    
+	}
+}
