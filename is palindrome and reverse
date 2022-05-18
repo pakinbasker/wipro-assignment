@@ -1,0 +1,19 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int n1=6884,n2=0,r;
+		int m1=n1;
+		while(n1!=0){
+		    r=n1%10;
+		    n2=n2*10+r;
+		    n1/=10;
+		}if(m1==n2){
+		     System.out.println("is palindrome");
+		 }
+		    System.out.println(n2);
+		    
+	
+		    
+		
+	}
+}
